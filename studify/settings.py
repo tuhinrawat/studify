@@ -54,7 +54,7 @@ ROOT_URLCONF = 'studify.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['studify/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
